@@ -158,7 +158,7 @@
             },
             ".mbr-section-lead B": {
               "color": "#efefef",
-              "font-size": "30px"
+              "font-size": "36px"
             },
             ".mbr-section-title I": {
               "color": "#f7da64"
