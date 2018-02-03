@@ -24,7 +24,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 11,
-    "versionPublish": "4.6.3",
+    "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -105,12 +105,6 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#282828",
             "fontSize": "1.05",
             "fontName": {
@@ -119,16 +113,23 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#b8312f",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-384x256.jpg",
+              "src": "@PROJECT_PATH@/assets/images/0-2375-227x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -157,7 +158,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-lead B": {
-              "color": "#fac51c",
+              "color": "#efefef",
               "font-size": "36px"
             },
             ".mbr-section-title I": {
@@ -170,23 +171,23 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1624x1080.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1624x1080.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
-            "overlayOpacity": "0.5"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "<i style=\"line-height: 1.1;\">اوتوكير للعناية بالسيارات</i><br><i><br></i><i><br></i>",
           "text": "<br><b>&nbsp;AUTOCARE مؤسسة العناية الذاتية</b><br><b><br>عزل حراري أمريكيsuntek</b><b><br>حماية واجهة السيارات من الترميل بأفضل الافلام الامريكية<br>تفصيل جلد لمقاعد السيارات<br>تفصل مخمل لمقاعد السيارات<br>تركيب عازل بلاستيك لارضية السيارات<br>التلميع الداخلي و الخارجي بأفضل المواد الالمانية<br>تركيب كافة انواع الشاشات و الانوار<br>حماية نانوسيراميك &nbsp;خارجية لبدي السيارة بالكامل <br>حماية نانوسيراميك داخلية&nbsp;</b>",
@@ -199,13 +200,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -231,25 +232,25 @@
           "_name": "msg-box7",
           "_anchor": "msg-box7-1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
             "imageSize": 50,
             "paddingTop": "6",
             "paddingBottom": "6",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "media": {
             "image": {
