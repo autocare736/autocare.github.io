@@ -157,7 +157,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-lead B": {
-              "color": "#0324f4",
+              "color": "#efefef",
               "font-size": "30px"
             },
             ".mbr-section-title I": {
